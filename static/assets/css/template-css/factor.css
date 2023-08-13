@@ -1,0 +1,14 @@
+@import url(/style/style.css);
+.factor {
+  min-width: 800px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+}
+.mosh {
+  border: 1px solid black;
+  padding: 10px;
+}
+.footer-factor{
+    font-size: 20px;
+}

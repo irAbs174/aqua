@@ -1,0 +1,59 @@
+@import url(/style/style.css);
+.position-sticky {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  top: 5px;
+}
+.position-sticky img {
+  width: 100%;
+  border-radius: 5px;
+}
+.catprod {
+  overflow-y: scroll;
+  height: 165px;
+}
+.catprod li {
+  display: block;
+  text-align: center;
+}
+.catprod li a {
+  color: black;
+}
+article {
+  background-color: white;
+  padding: 20px;
+}
+article h1 {
+  padding: 10px;
+}
+header span {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  font-size: 17px;
+  margin-left: 10px;
+  border-radius: 3px;
+  margin: 5px;
+}
+header {
+    text-align: center;
+
+}
+.ads-cat img{
+  padding: 5px;
+  border-radius: 10px;
+}
+.blog-content img{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+@media only all and (max-width: 550px) {
+  header span {
+    font-size: 15px;
+    margin: 1px;
+  }
+}

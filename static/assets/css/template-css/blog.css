@@ -1,0 +1,43 @@
+@import url(/style/style.css);
+.position-sticky {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  top: 5px;
+}
+.position-sticky img {
+  width: 100%;
+  border-radius: 5px;
+}
+.catprod {
+  overflow-y: scroll;
+  height: 165px;
+}
+.catprod li {
+  display: block;
+  text-align: center;
+}
+.catprod li a {
+  color: black;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.listpage {
+  width: 100%;
+}
+.pagination {
+  max-width: max-content;
+}
+.card-body {
+  position: relative;
+}
+.catcardpost {
+  color: white;
+  background-color: blue;
+  padding: 2px 5px;
+  border-radius: 3px;
+  position: absolute;
+  top: -20px;
+}

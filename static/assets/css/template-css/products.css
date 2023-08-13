@@ -1,0 +1,101 @@
+@import url(/style/style.css);
+
+.cardpro {
+  width: 25%;
+  border: 1px rgb(214, 214, 214) solid;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 3px;
+}
+.cardpro-title {
+  margin-top: 10px;
+}
+.position-sticky0 {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.catprod {
+  overflow-y: scroll;
+  height: 165px;
+}
+.catprod li {
+  display: block;
+  text-align: center;
+}
+.catprod li a {
+  color: black;
+}
+.form-check span {
+  float: right;
+}
+.position-sticky1 {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  height: 200px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.filprod {
+  position: absolute;
+  right: 60px;
+}
+.position-sticky2 {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+.filpr input {
+  margin-bottom: 10px;
+}
+.offcanvas {
+  background-color: #e1e1e1;
+}
+.offcanvas-body {
+  width: 100%;
+}
+.filteraside {
+  display: none;
+}
+.listpage {
+width: 100%;
+}
+.pagination{
+  max-width: max-content;
+}
+@media only all and (max-width: 576px) {
+  .cardpro a {
+    font-size: 13px;
+  }
+}
+@media only all and (max-width: 768px) {
+  .cardpro {
+    width: 50% !important;
+  }
+}
+@media only all and (max-width: 1200px) {
+  .cardpro h3 {
+    font-size: 15px;
+  }
+  .cardpro {
+    width: 50% !important;
+  }
+}
+@media only all and (max-width: 767px) {
+  .filteraside {
+    display: block;
+  }
+  .desaside {
+    display: none;
+  }
+}
+@media only all and (max-width: 400px) {
+  span[class="h5 bluer-c"] {
+    font-size: 17px;
+  }
+}
